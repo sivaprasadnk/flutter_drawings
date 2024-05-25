@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_drawings/mjolnir.dart';
+import 'package:flutter_drawings/spiderman.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Avengers',
+      title: 'SpiderMan',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -27,9 +27,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     
     return const Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.red,
       body: Center(
-        child: Mjolnir(),
+        child: SpiderMan(),
       ),
     );
   }
