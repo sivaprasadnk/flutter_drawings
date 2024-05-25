@@ -26,9 +26,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var mediaQuerySize = MediaQuery.of(context).size;
-    var w = mediaQuerySize.width;
-    var h = mediaQuerySize.height;
     
     return const Scaffold(
       backgroundColor: Colors.white,
