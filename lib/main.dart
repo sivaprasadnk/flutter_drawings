@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_drawings/ironman_mask.dart';
+import 'package:flutter_drawings/mjolnir.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,9 +27,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     
     return const Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.white,
       body: Center(
-        child: IronMan(),
+        child: Mjolnir(),
       ),
     );
   }
