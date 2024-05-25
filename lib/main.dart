@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_drawings/avengers_logo.dart';
+// import 'package:flutter_drawings/avengers_logo.dart';
+import 'package:flutter_drawings/captain_america_shield.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,12 +29,11 @@ class MyHomePage extends StatelessWidget {
     var mediaQuerySize = MediaQuery.of(context).size;
     var w = mediaQuerySize.width;
     var h = mediaQuerySize.height;
-    debugPrint(
-        " width : $w, height :$h"); // width : 707.2000122070312, height :711.2000122070312
+    
     return const Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: Center(
-        child: AvengersLogo(),
+        child: CaptainAmerica(),
       ),
     );
   }
