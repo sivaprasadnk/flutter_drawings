@@ -32,8 +32,8 @@ class HammerClipper extends CustomClipper<Path> {
 
     var h = size.height;
     var w = size.width;
-    double x = w / 2.0 - 50;
-    double y = h / 4.0;
+    double x = w / 2.0 - 60;
+    double y = h / 4.0 + 60;
 
 // top
     path.moveTo(x, y - 25); // top left
